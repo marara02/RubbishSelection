@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link href="https://o.remove.bg/downloads/f1295495-f7aa-4c50-bccf-a1ab91b153ec/tropical-palm-tree-with-coconuts-symbol-isolated-vector-illustration_1284-1959-removebg-preview.png" rel="icon">
+    <title>Сортируй правильно</title>
+
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</head>
+<body>
+<script src="script.js"></script>
+
+<div class="wideBox">
+    <h1>Сортируй мусор правильно и
+        <span
+                class="txt-rotate"
+                data-period="2000"
+                data-rotate='[ "легко.", "быстро.", "с пользой."]'></span>
+    </h1>
+</div>
+
+<div class="example-parent">
+    <div
+            class="example-dropzone"
+            ondragover="onDragOver(event);"
+            ondrop="onDrop(event);"
+    >
+        <img src="bin.png" class="img-fluid">
+    </div>
+
+    <div
+            class="example-dropzon"
+            ondragover="onDragOver(event);"
+            ondrop="onDrop(event);"
+    >
+        <img src="recycle.png" class="img-fluid">
+    </div>
+
+</div>
+
+<button type="button" id="check" class="btn btn-info" onclick="sweet()">Проверить</button>
+
+<h4 id = 'main' style="text-align: center">Отходы для сортировки</h4>
+<div class='elements'>
+    <div class="example">
+        <div
+                id="animals"
+                ondrop="drop(event)"
+                ondragover="allowDrop(event)"
+        >
+            <img
+                    id="cat"
+                    src="https://image.freepik.com/free-psd/packaging-box-mock-up_23-2148698793.jpg"
+                    draggable="true"
+                    ondragstart="onDragStart(event);"
+                    width="300"
+            />
+
+            <img
+                    id="dog"
+                    src="https://image.freepik.com/free-vector/green-black-indian-ceylon-tea-pyramid-bags-packaging-boxes-realistic-set-advertising-sale-isolated_1284-29037.jpg"
+                    draggable="true"
+                    ondragstart="onDragStart(event);"
+                    width="300"
+            />
+
+            <img
+                    id="mouse"
+                    src="https://image.freepik.com/free-vector/set-realistic-packaging-wet-napkins-with-calendula-aloe-vera-isolated-3d-illustration_1284-28313.jpg"
+                    draggable="true"
+                    ondragstart="onDragStart(event);"
+                    width="300"
+            />
+
+            <img
+                    id="fish"
+                    class="rounded"
+                    src="https://image.freepik.com/free-photo/3d-battery-recycling_23-2148907428.jpg"
+                    draggable="true"
+                    ondragstart="onDragStart(event);"
+                    width="300"
+            />
+
+            <img
+                    id="rub2"
+                    class="rounded"
+                    src="https://image.freepik.com/free-psd/sardine-can-mockup_1051-2891.jpg"
+                    draggable="true"
+                    ondragstart="onDragStart(event);"
+                    width="300"
+            />
+
+            <img
+                    id="rub3"
+                    class="rounded"
+                    src="https://image.freepik.com/free-psd/medium-size-paper-coffee-cup-mockup_358694-574.jpg"
+                    draggable="true"
+                    ondragstart="onDragStart(event);"
+                    width="300"
+            />
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

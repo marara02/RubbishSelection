@@ -1,0 +1,137 @@
+body{
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; background-size: cover;
+    background-image: url("https://image.freepik.com/free-photo/sunny-defocused-green-nature-background-abstract-bokeh-effect-es-element-your-design_211682-265.jpg");
+}
+@media (max-width: 480px) {
+    body {
+        background-image: url("https://image.freepik.com/free-vector/green-watercolor-background-design_1035-8379.jpg");
+    }
+}
+
+.example-parent {
+    border: 2px solid greenyellow;
+    color: black;
+    display: flex;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    text-align: center;
+}
+
+.example-origin {
+    display: flex;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.example-draggable {
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.example-dropzone {
+    background-color: #6DB65B;
+    flex-basis: 100%;
+    flex-grow: 1;
+    padding: 10px;
+
+}
+
+.example-dropzon {
+    background-color: yellow;
+    flex-basis: 100%;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+
+.image{
+    width: 20%;
+    height: 20%;
+}
+
+#check{
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.elements{
+    color: black;
+    display: flex;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-top: 6%;
+    height: 40%;
+    text-align: center;
+}
+
+#dropZone,
+#animals {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    min-height: 200px;
+    margin-bottom: 20px;
+}
+
+#cat,
+#fish{
+    border: black;
+}
+
+#dropBox1,
+#dropBox2,
+#dropBox3,
+#dropBox4 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+img {
+    height: 200px;
+    object-fit: cover;
+    width: 200px;
+}
+
+.wideBox {
+    clear: both;
+    text-align: center;
+    margin: 70px;
+    padding: 10px;
+}
+
+.wideBox h1,h2 {
+    font-weight: 200;
+    margin: 0.4em 0;
+}
+h1 { font-size: 3.5em; }
+h2 {
+    color: #888;
+    font-size: 2em;
+}
+
+#logo{
+    width: 50%;
+    height: 10%;
+}
+
+#main{
+    font-family: "Palatino Linotype", monospace ;
+    font-size: xxx-large;
+}
+
